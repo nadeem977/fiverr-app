@@ -1,0 +1,54 @@
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    // flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+     height: 95vh;
+    text-transform: capitalize;
+
+    .right-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        width: 50%;
+    }
+    .left-div{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        width: 50%;
+    }
+    input{
+        padding: 10px;
+        width: 300px;
+        border: 1px solid rgb(80, 206, 255);
+        outline: none;
+        border-radius: 5px;
+        margin-top:10px ;
+
+    }
+    textarea{
+        width: 300px;
+        border-radius: 5px;
+        border: 1px solid rgb(80, 206, 255);
+        padding: 10px;
+        margin-top:10px ;
+        outline: none;
+    }
+    .btnregister{
+        padding: 10px;
+        width: 300px;
+        border: none;
+        outline: none;
+        background-color: rgb(66, 199, 252);
+         color: white;
+         font-size: 20px;
+         border-radius: 5px;
+         cursor: pointer;
+    }
+}
